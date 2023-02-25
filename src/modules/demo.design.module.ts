@@ -18,6 +18,7 @@ import { HttpDataProvider } from "../persistence/httpDataProvider";
 import { MemoryBlobStorage } from "../persistence/memoryBlobStorage";
 import { MemoryObjectStorage } from "../persistence/memoryObjectStorage";
 import { StaticRoleService } from "../user/staticRoleService";
+import { ReactModule } from "@paperbits/react/react.module";
 
 
 export class DemoDesignModule implements IInjectorModule {
@@ -33,5 +34,6 @@ export class DemoDesignModule implements IInjectorModule {
         injector.bindModule(new ClickCounterDesignModule());
         injector.bindModule(new PopupDesignModule());
         injector.bindModule(new RoleBasedSecurityDesignModule());
+        injector.bindModule(new ReactModule());
     }
 }

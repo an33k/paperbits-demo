@@ -23,6 +23,7 @@
         "@types/knockout.mapping": "^2.0.37",
         "@types/knockout.validation": "0.0.38",
         "@types/mime": "^3.0.1",
+        "@types/react": "^18.0.26",
         "@typescript-eslint/eslint-plugin": "^5.46.1",
         "@typescript-eslint/parser": "^5.46.1",
         "autoprefixer": "10.4.13",
@@ -58,9 +59,12 @@
         "@paperbits/gtm": "0.1.538",
         "@paperbits/intercom": "0.1.538",
         "@paperbits/prosemirror": "0.1.538",
+        "@paperbits/react": "^1.0.5",
         "@paperbits/styles": "0.1.538",
         "@webcomponents/custom-elements": "^1.5.1",
         "core-js": "^3.26.1",
-        "knockout": "^3.5.1"
+        "knockout": "^3.5.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
     }
 }
